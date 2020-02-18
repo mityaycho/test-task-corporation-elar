@@ -1,26 +1,36 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TaskOne from './components/taskOne/TaskOne';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    taskOne: 'noActive',
+    taskTwo: false,
+    taskThree: false
+  };
+
+  toggleTaskOne = (event) => {
+    event.currentTarget.className === 'noActive' ?
+      this.setState({taskOne: 'active'}) :
+      this.setState({taskOne: 'noActive'})
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo"/>
+          <nav>
+            <input type="button" className={this.state.taskOne} value="task one" onClick={event => this.toggleTaskOne(event)}/>
+            <input type="button" value="task two"/>
+            <input type="button" value="task three"/>
+          </nav>
+          {this.state.taskOne === "active" && <TaskOne/>}
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
