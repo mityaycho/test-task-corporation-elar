@@ -1,4 +1,27 @@
 
-.table {
+.grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 
+.col {
+    background-color: white;
+}
+
+.cell {
+    border: solid 1px red;
+    text-align: left;
+    padding: 5px;
+    color: black;
+}
+
+.cell:nth-child(1) {
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 400px){
+    .grid {
+        width: 100%;
+    }
 }

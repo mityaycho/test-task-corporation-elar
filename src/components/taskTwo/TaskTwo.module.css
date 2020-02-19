@@ -1,0 +1,56 @@
+
+.containerOne {
+    display: flex;
+    justify-content: center;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    border: solid 1px black;
+    padding: 5px;
+    text-align: left;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 90%;
+}
+
+.li {
+    margin-right: 25px;
+}
+
+.containerTwo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+}
+
+.smallBlock {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+}
+
+.bigBlock {
+    padding: 5px;
+    height: 100px;
+    width: 300px;
+    border: solid 1px black;
+}
+
+@media screen and (max-width: 400px){
+    .ul {
+        width: 50%;
+    }
+    .containerTwo {
+        flex-direction: column;
+    }
+    .bigBlock {
+        height: 300px;
+        width: 100px;
+    }
+}
