@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test-task-corporation-elar/static/css/main.19a79720.chunk.css",
+    "main.js": "/test-task-corporation-elar/static/js/main.d0aa7d29.chunk.js",
+    "main.js.map": "/test-task-corporation-elar/static/js/main.d0aa7d29.chunk.js.map",
+    "runtime-main.js": "/test-task-corporation-elar/static/js/runtime-main.95204044.js",
+    "runtime-main.js.map": "/test-task-corporation-elar/static/js/runtime-main.95204044.js.map",
+    "static/js/2.e47610f1.chunk.js": "/test-task-corporation-elar/static/js/2.e47610f1.chunk.js",
+    "static/js/2.e47610f1.chunk.js.map": "/test-task-corporation-elar/static/js/2.e47610f1.chunk.js.map",
+    "index.html": "/test-task-corporation-elar/index.html",
+    "precache-manifest.76601b541f8fbe4ff8a92b5bedefecc4.js": "/test-task-corporation-elar/precache-manifest.76601b541f8fbe4ff8a92b5bedefecc4.js",
+    "service-worker.js": "/test-task-corporation-elar/service-worker.js",
+    "static/css/main.19a79720.chunk.css.map": "/test-task-corporation-elar/static/css/main.19a79720.chunk.css.map",
+    "static/js/2.e47610f1.chunk.js.LICENSE.txt": "/test-task-corporation-elar/static/js/2.e47610f1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/test-task-corporation-elar/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95204044.js",
+    "static/js/2.e47610f1.chunk.js",
+    "static/css/main.19a79720.chunk.css",
+    "static/js/main.d0aa7d29.chunk.js"
+  ]
+}
