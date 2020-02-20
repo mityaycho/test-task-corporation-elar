@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import TaskOne from './components/taskOne/TaskOne';
 import TaskTwo from "./components/taskTwo/TaskTwo";
+import TaskThree from "./components/taskThree/TaskThree";
 
 class App extends React.Component {
   state = {
@@ -50,6 +51,7 @@ class App extends React.Component {
           </nav>
           {this.state.taskOne === "active" && <TaskOne/>}
           {this.state.taskTwo === "active" && <TaskTwo/>}
+          {this.state.taskThree === "active" && <TaskThree/>}
         </header>
       </div>
     );

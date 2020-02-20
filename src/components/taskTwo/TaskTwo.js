@@ -14,6 +14,8 @@ function TaskTwo() {
           <li className={styles.li}>item</li>
           <li className={styles.li}>item</li>
           <li className={styles.li}>item</li>
+          <li className={styles.li}>item</li>
+          <li className={styles.li}>item</li>
         </ul>
       </div>
       <h1>Flex</h1>
