@@ -38,6 +38,13 @@
     background-color: red;
 }
 
+.cell:nth-child(1):hover {
+    width: calc(60% - 20px);
+    height: calc(70% - 20px);
+    box-shadow: 0 0 0 20px yellow;
+
+}
+
 .cell:nth-last-child(1):hover {
     border-radius: 50%;
     outline-offset: -20px;
